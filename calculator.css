@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/futuristic-technology-background_23-2148462462.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    width:100%;
+}
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    width: 40%;
+    height:50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 44%;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3374ff;
+    color: #ffffff;
+}
+
+input[type="button"] {
+    width: 35%;
+    height: 40px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    /* border-radius: 40px; */
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #729eef;
+}
+
+.calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.calculator__key {
+    background: #dbdfdf;
+    border: none;
+    font-size: 2rem;
+    inline-size: 60px;
+    block-size: 60px;
+    border-radius: 40px;
+    color: #ffffff;
+}
+
+.calculator__key:hover {
+    background-color: #99ffff;
+}
